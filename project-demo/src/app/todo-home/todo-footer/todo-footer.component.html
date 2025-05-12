@@ -1,0 +1,11 @@
+<div class="footer">
+    <span class="item-count">{{ remaining }} item{{ remaining !== 1 ? 's' : '' }} left</span>
+    @if (hasCompleted) {
+      <button 
+        (click)="onClearCompleted()"
+        class="clear-button"
+      >
+        Clear completed
+      </button>
+    }
+  </div>
