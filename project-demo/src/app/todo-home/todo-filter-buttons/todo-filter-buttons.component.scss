@@ -24,3 +24,9 @@
     background-color: #673ab7;
     color: white;
   }
+  
+  @media screen and (max-width: 320px) {
+    .filter-container {
+      display: grid;
+    }
+  }
