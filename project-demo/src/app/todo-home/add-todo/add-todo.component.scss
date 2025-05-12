@@ -1,12 +1,11 @@
 .todo-container {
-    max-width: 600px;
-    margin: 1rem auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  }
-  
+  max-width: 600px;
+  margin: 1rem auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+
   .app-title {
     font-size: 24px;
     font-weight: bold;
@@ -14,12 +13,12 @@
     margin-bottom: 20px;
     text-align: center;
   }
-  
+
   .todo-form {
     display: flex;
     margin-bottom: 20px;
   }
-  
+
   .todo-input {
     flex-grow: 1;
     padding: 10px;
@@ -28,13 +27,13 @@
     font-size: 16px;
     width: 100%;
   }
-  
+
   .todo-input:focus {
     outline: none;
     border-color: #673ab7;
     box-shadow: 0 0 0 2px rgba(103, 58, 183, 0.1);
   }
-  
+
   .add-button {
     background-color: #673ab7;
     color: white;
@@ -44,17 +43,18 @@
     cursor: pointer;
     font-size: 16px;
   }
-  
+
   .add-button:hover {
     background-color: #5e35b1;
   }
-  
+
   .todo-list {
     margin-bottom: 20px;
+
+    .empty-message {
+      text-align: center;
+      color: #777;
+      padding: 20px;
+    }
   }
-  
-  .empty-message {
-    text-align: center;
-    color: #777;
-    padding: 20px;
-  }
+}
